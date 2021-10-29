@@ -28,6 +28,6 @@ import config from './config/config';
     EstilosModule,
     PagosModule],
   controllers: [AppController, AlumnosController],
-  providers: [AppService, AlumnosService],
+  providers: [AppService],
 })
 export class AppModule {}
